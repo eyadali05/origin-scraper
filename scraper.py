@@ -1,11 +1,10 @@
-# to use the script install playwright with 'pip install playwright' then 'playwright install' then get the origin url you want and place it in the game_url variable
 import playwright
 from playwright.sync_api import sync_playwright
 import logging
 import time
 
-game_url = "https://www.origin.com/egy/en-us/store/fifa/fifa-22"
-#logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.INFO)
+game_url = str(input("Enter Origin Game URL: "))
+logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.INFO)
 
 
 def get_name(page):
