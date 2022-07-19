@@ -15,3 +15,8 @@ I was tasked by making a scraper to get certain data given a url from [origin](h
 
 ## Usage
 All you do is run the `scraper.py` file and enter a url of a game on origin when prompted to, then wait for output
+
+## TODO
+- [ ] Make it work on replit -_In the case of it not working then refactor the code and use **selenium**_-
+- [ ] Try and optimize the code more so the runtime of the script is lowered
+- [ ] Add more functionality, possibly a way to visualize data
