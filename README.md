@@ -10,7 +10,7 @@ I was tasked by making a scraper to get certain data given a url from [origin](h
 
 ## Installation
 1. `python3 -m pip install playwright` or `pip3 install playwright`
-2. playwright install
+2. `playwright install`
 3. good to go!
 
 ## Usage
